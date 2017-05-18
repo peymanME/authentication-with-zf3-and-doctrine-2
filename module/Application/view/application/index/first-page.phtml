@@ -1,0 +1,15 @@
+<div class="panel panel-default text-center">
+  <div class="panel-heading">
+    <h3 class="panel-title">My page</h3>
+  </div>
+  <div class="panel-body">
+    <section>
+            <div>
+                <?= $this->partial("error/_information.phtml", array("message" => $message,)); ?>   
+            </div>
+            <div>
+                <a class="btn btn-primary" href="<?= $this->url('root', array('action' =>'logout'));?>">Logout</a>
+            </div>
+    </section><!-- content -->
+  </div>
+</div>

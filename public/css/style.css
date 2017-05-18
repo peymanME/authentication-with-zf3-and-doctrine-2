@@ -1,0 +1,22 @@
+body {
+    margin-top: 50px; 
+}
+.panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+input[type="email"] {
+    width: 300px;
+}
+
+input[type="text"] {
+    width: 300px;
+}
