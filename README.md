@@ -8,7 +8,7 @@ To see the authentication application can do the following steps:
 2) Download the project on your computer 
 
 3) At the command prompt, go to the project folder and type the following command:
-   $ composer update
+ ##  $ composer update
     
 4) Run the Sql Script on your mysql database from the path data/Database folder
 
